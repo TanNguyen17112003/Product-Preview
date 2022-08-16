@@ -1,0 +1,108 @@
+.attribution { 
+    font-size: 14px; 
+    text-align: center;
+    margin-top: 2rem; 
+    letter-spacing: 1px;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 0.2px);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px; 
+}
+
+.contain-desc{
+    background-color: #fff;
+    padding: 1.5rem 1.5rem 0;
+    border-radius: 0 10px 10px;
+}
+
+.contain-desc h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: hsl(212, 21%, 14%);
+    font-weight: bold;
+    line-height: 1.1;  
+}
+
+.contain-desc h2 {
+    color: hsl(228, 12%, 48%);
+    margin: 0 0 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.contain-desc p {
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+.contain-img{
+    /* max-width: 640px; */
+    width: 100%;
+    border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.contain-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    line-height: 0.8;
+}
+
+.sale-price {
+    font-size: 2.3rem;
+    margin-right: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* line-height: 0.8; */
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+    color: hsl(158, 36%, 37%);
+    text-decoration-line: line-through;
+}
+
+.contain-btn {
+    background-color:hsl(158, 36%, 37%);
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0.625rem;
+    border-color: transparent;
+}
+
+.contain-btn img {
+    margin-right: 0.5rem;
+}
+
+
